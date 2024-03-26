@@ -33,9 +33,7 @@ body, html {
     text-align: center;
     display: block;
     padding-left: 1%;
-
 }
-
 
 .menu-button {
     display: block;
@@ -53,22 +51,12 @@ body, html {
 }
 
 .slider_img {
-    max-width: 90%;  
+    max-width: 100%;  
     position: absolute;
     border-radius: 7%;
     left: 50%;
     transform: translate(-50%, 10%);
 }
-
-/* .carousel-inner img {
-    max-width: 80%;
-    max-height: 80%;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-} */
 
 .carousel-caption {
     color: black;
@@ -78,14 +66,13 @@ body, html {
     left: 0;
     margin-right: 15%;
     background-color: aliceblue;
-
-
 }
 
 .carousel-caption h5 {
     margin-bottom: 20px;
 }
-.split {
+
+/* .split {
     height: 600px;
     width: 50%;
     position: fixed;
@@ -100,12 +87,11 @@ body, html {
   
 .right {
     right: 0;
-}
+} */
 
 .carousel-control-prev-icon {
     height: 25px;
-    width: 25px;
-    
+    width: 25px;   
 }
 
 .carousel-control-next-icon {
@@ -124,3 +110,10 @@ body, html {
 .cards {
     max-width: 95%;
     padding-bottom: 2%;
+}
+
+.service {
+    text-align: center; 
+    padding-top: 1%; 
+    padding-bottom: 1%;
+}

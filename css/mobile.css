@@ -7,44 +7,29 @@ body, html {
     color: #222;
 }
 
-
 .navbar-brand img {
     width: 70px;
     height: 30px;
     margin-right: 0;
     padding-right:0 ;
-
 }
 
 .link-dark {
-    /* width: auto;
-    height: auto; */
-    /* font-size: 1.3rem; */
-    /* margin:0 auto; */
     display: block;
     font-weight: 500;
     padding-right: 5px;
     padding-left: 0;
-    /* margin-left: 0; */
 }
 
 .navbar-toggler-icon {
-    /* display: block;
-    margin: 0 auto; */
     width: 20px;
     height: 20px;
-
 }
-
-/* .nabar-nav li {
-    padding-left: 1%;
-} */
 
 .nav-link {
     font-size: 1em !important;
     text-align: center;
     margin: 1%;
-
 }
 
 .navbar-toggler-icon {
@@ -82,34 +67,15 @@ body, html {
     left: 0;
     margin-right: 15%;
     background-color: aliceblue;
-
-
 }
 
 .carousel-caption h5 {
     margin-bottom: 20px;
 }
-.split {
-    height: 600px;
-    width: 50%;
-    position: fixed;
-    z-index: 1;
-    overflow-x: hidden;
-    overflow-y: hidden
-}
-
-.left {
-    left: 0;
-}
-  
-.right {
-    right: 0;
-}
 
 .carousel-control-prev-icon {
     height: 25px;
-    width: 25px;
-    
+    width: 25px;   
 }
 
 .carousel-control-next-icon {
@@ -130,3 +96,8 @@ body, html {
     padding-bottom: 2%;
 }
 
+.service {
+    text-align: center; 
+    padding-top: 1%; 
+    padding-bottom: 1%;
+}
