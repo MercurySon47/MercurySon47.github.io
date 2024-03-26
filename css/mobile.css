@@ -22,7 +22,7 @@ body, html {
     /* font-size: 1.3rem; */
     /* margin:0 auto; */
     display: block;
-    font-weight: 600;
+    font-weight: 500;
     padding-right: 5px;
     padding-left: 0;
     /* margin-left: 0; */
@@ -107,16 +107,12 @@ body, html {
 }
 
 .carousel-control-prev-icon {
-    border-radius: 90%;
-    background-color: black;
     height: 25px;
     width: 25px;
     
 }
 
 .carousel-control-next-icon {
-    border-radius: 90%;
-    background-color: black;
     height: 25px;
     width: 25px;
 }
@@ -128,3 +124,9 @@ body, html {
 .carousel-control-next {
     width: 7%
 }
+
+.cards {
+    max-width: 95%;
+    padding-bottom: 2%;
+}
+
