@@ -121,3 +121,16 @@ body, html {
     font-size: 0.8rem;
     font-weight: 300;
 }
+
+.text_service {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.last_adress{
+    display: block;
+    margin: 10px auto;
+}
+
+/* #address {
+} */

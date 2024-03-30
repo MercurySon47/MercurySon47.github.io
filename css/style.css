@@ -130,8 +130,8 @@ body, html {
 }
 
 .adress_card{
-    margin-left: 80px !important;
-    margin-right: 80px !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
 }
 
 .adress_card card{
@@ -140,4 +140,16 @@ body, html {
 
 .adress_title {
     font-size: 1.1rem;
+}
+
+.text_service {
+    text-align: center;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 15px;
+}
+
+.last_adress{
+    display: block;
+    margin: 10px auto;
 }
