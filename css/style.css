@@ -29,19 +29,36 @@ body, html {
 }
 
 .nav-link {
+    padding-top: 20px;
     font-size: 1.1em !important;
     text-align: center;
     display: block;
     padding-left: 1%;
 }
 
+.whatsapp_icon {
+    font-size: 1.1em !important;
+    text-align: center;
+    display: block;
+    padding-left: 20px;
+    color:forestgreen; 
+    padding-right: 10px
+}
+
 .menu-button {
     display: block;
     width: 140px;
-    margin-top: 5px !important;
+    margin-top: 17px !important;
     margin-left: 1%;
     margin-left: 20px;
 
+
+}
+
+.telegram_icon {
+    color:rgb(45, 102, 188); 
+    padding-right: 10px; 
+    padding-bottom: 20px;
 
 }
 
@@ -136,6 +153,7 @@ body, html {
 .adress_card{
     margin-left: 10% !important;
     margin-right: 10% !important;
+    margin-bottom: 40px;
 }
 
 .adress_card card{

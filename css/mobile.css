@@ -15,7 +15,7 @@ body, html {
 }
 
 .link-dark {
-    display: block;
+    /* display: block; */
     font-weight: 500;
     padding-right: 5px;
     padding-left: 0;
@@ -30,6 +30,21 @@ body, html {
     font-size: 1em !important;
     text-align: center;
     margin: 1%;
+}
+
+.whatsapp_icon {
+    font-size: 1.1em !important;
+    text-align: center;
+    display: block;
+    padding-left: 1%;
+    color:forestgreen; 
+    padding-right: 10px
+}
+
+.telegram_icon {
+    color:rgb(45, 102, 188); 
+    padding-right: 10px;
+
 }
 
 .navbar-toggler-icon {
@@ -142,6 +157,7 @@ body, html {
 .adress_card{
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 20px;
     
     /* border-radius: 50px;
     padding: 10px; */
