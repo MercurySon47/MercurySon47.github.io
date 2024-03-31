@@ -97,8 +97,9 @@ body, html {
 }
 
 .service {
+    margin-top: -380px;
+    padding-top: 400px;
     text-align: center; 
-    padding-top: 15px; 
     padding-bottom: 15px;
 }
 
@@ -132,5 +133,26 @@ body, html {
     margin: 10px auto;
 }
 
-/* #address {
-} */
+.service_items {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.adress_card{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.address_title {
+    margin-top: -400px;
+    padding-top: 400px;
+    text-align: center; 
+    padding-bottom: 15px;
+}
+
+.company_title {
+    margin-top: -370px;
+    padding-top: 400px;
+    text-align: center; 
+    padding-bottom: 15px;
+}

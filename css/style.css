@@ -113,9 +113,10 @@ body, html {
 }
 
 .service {
+    margin-top: -60px;
+    padding-top: 90px;
     text-align: center; 
-    padding-top: 1%; 
-    padding-bottom: 1%;
+    padding-bottom: 15px;
 }
 
 .company {
@@ -152,4 +153,23 @@ body, html {
 .last_adress{
     display: block;
     margin: 10px auto;
+}
+
+.service_items {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.address_title {
+    margin-top: -80px;
+    padding-top: 80px;
+    text-align: center; 
+    padding-bottom: 15px;
+}
+
+.company_title {
+    margin-top: -60px;
+    padding-top: 90px;
+    text-align: center; 
+    padding-bottom: 15px;
 }
