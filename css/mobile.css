@@ -48,7 +48,8 @@ body, html {
 .carousel-inner {
     width: 100% ;
     height: 600px;
-    background: linear-gradient(rgba(255, 255, 0, 0.3), rgba(255, 4, 4, 0.1));
+    background-image: url('../img/DL/1_back.jpg');
+    background-size: auto;
 }
 
 .slider_img {
@@ -141,6 +142,16 @@ body, html {
 .adress_card{
     margin-left: 10px;
     margin-right: 10px;
+    
+    /* border-radius: 50px;
+    padding: 10px; */
+}
+
+.card {
+
+    background-image: url('../img/DL/1_back.jpg');
+    background-size: auto;
+
 }
 
 .address_title {
@@ -158,7 +169,7 @@ body, html {
 }
 
 .btn-danger{
-
+    border-radius: 17px;
     background: -moz-linear-gradient(-45deg, #e81216 0%, #f45355 50%, #f6290c 51%, #ed0e11 71%, #fc1b21 100%);
     /* FF3.6-15 */
     background: -webkit-linear-gradient(-45deg, #e81216 0%,#f45355 50%,#f6290c 51%,#ed0e11 71%,#fc1b21 100%);
