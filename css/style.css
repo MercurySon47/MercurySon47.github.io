@@ -267,3 +267,16 @@ body, html {
     .elements-page-btn .btn {
     margin: 6px 3px;
    }
+
+
+   .first_slide_comp {
+
+    display: block;
+    max-width: 1000px;
+    transform: translate(-50%, 5%);
+   }
+
+   .first_slide_mobile {
+
+    display: none;
+   }

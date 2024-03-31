@@ -248,3 +248,14 @@ body, html {
     .elements-page-btn .btn {
     margin: 6px 3px;
    }
+
+   .first_slide_comp {
+    display: none;
+   }
+
+   .first_slide_mobile {
+    display: block;
+    max-width: 90%;
+    transform: translate(-50%, 3%);
+    
+   }
