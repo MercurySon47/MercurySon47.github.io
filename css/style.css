@@ -71,7 +71,8 @@ body, html {
 }
 
 .slider_img {
-    max-width: 100%;  
+    
+    width: 1000px;  
     position: absolute;
     border-radius: 7%;
     left: 50%;
@@ -79,13 +80,15 @@ body, html {
 }
 
 .carousel-caption {
-    color: black;
-    top: 25%;
-    text-shadow: 1px 1px 10px #000;
-    position: relative;
-    left: 0;
-    margin-right: 15%;
-    background-color: aliceblue;
+    text-shadow: 1px 1px 3px #000;
+    position: static;
+    transform: translate(0%, 250px);
+    width: 450px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    
 }
 
 .carousel-caption h5 {
