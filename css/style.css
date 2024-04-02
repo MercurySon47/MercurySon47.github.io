@@ -155,6 +155,8 @@ body, html {
 
 .card_service {
     width: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
     /* height: 100px; */
     /* position:relative; */
     /* display: block; */
@@ -188,7 +190,55 @@ body, html {
     text-align: center;
 }
 
+/* Отзывы */
 
+.feedback_title {
+    margin-top: -60px;
+    padding-top: 90px;
+    text-align: center; 
+    padding-bottom: 15px;
+}
+
+.feedback {
+    background-image: url('../img/DL/1_back.jpg');
+    background-size: auto;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+.feedback_img {
+    width: 60%;
+    height: 95%;
+    display: block;
+    margin: auto;
+    padding-left: 30px; 
+    border-radius: 25px;
+    border: solid;
+    border-style: none;
+}
+
+.feedback_feedback {
+    display: block;
+    position: relative;
+    bottom: 65%;
+    max-width: 300px;
+    max-height: 150px;
+    margin: 0 auto;
+    border-radius: 25px;
+    border: solid;
+    border-style: none;
+    opacity: 0.8;
+}
+
+.feedback a{
+    position: relative;
+    bottom: 35%;
+    display: block;
+    margin: auto;
+    width: 200px !important;
+}
 
 /* Адреса  */
 
