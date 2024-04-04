@@ -150,19 +150,9 @@ body, html {
 }
 
 .service_items {
-    /* margin-left: 10px;
-    margin-right: 10px; */
-    /* position: relative; */
-    /* width: 95%; */
     margin-left: 30px;
     margin-right: 30px;
-    /* margin-right: auto !important; */
-    /* display: flex; */
 }
-
-/* .card-img-top {
-    height: 100px;
-} */
 
 .card_service {
     width: 150px;

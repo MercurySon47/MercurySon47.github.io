@@ -84,17 +84,21 @@ body, html {
 .carousel-caption {
     text-shadow: 1px 1px 3px #000;
     position: static;
-    transform: translate(0%, 250px);
-    width: 450px;
+    transform: translate(0%, 450px);
+    width: 400px;
     height: 250px;
     display: block;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 220, 50, 0.5);
     
 }
 
-.carousel-caption h5 {
-    margin-bottom: 20px;
+.carousel-caption button{
+    margin-top: 20px;
+}
+
+.carousel-caption h1 {
+   font-size: 2rem;
 }
 
 .carousel-control-prev-icon {
@@ -193,81 +197,83 @@ body, html {
 /* Отзывы Отзывы Отзывы Отзывы Отзывы Отзывы Отзывы Отзывы */
 
 .feedback_title {
-    margin-top: -60px;
+    margin-top: -100px;
     padding-top: 90px;
     text-align: center; 
     padding-bottom: 15px;
 }
-
+/* Общий фон отзывы */
 .feedback {
-    position: relative;
     background-image: url('../img/DL/1_back.jpg');
-    /* background-size: auto; */
-    margin: 0 auto;
-    width: 90%;
-    /* height: 20%; */
-    margin-bottom: 30px;
+    width: 100%;
+    height: 660px;
     padding-top: 30px;
-    display: grid;
-    place-items: center;
+    margin-bottom: 30px;
+
+}
+.box {
+    position: relative;
+    overflow:hidden;
+    width:95%;
+    border-radius: 25px;
+    border: solid;
+    border-style: none;
+    display: block;
+    margin: auto;
+}
+/* Фон Отзывы Фотка Экрана*/
+.feedback_img_background {
+    width: 1000px;
+    object-fit:cover;
+    position: relative;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, 0%);
+    border-radius: 25px;
+    border: solid;
+    border-style: none;
 }
 
 /* Слайдер отзывы */
-
-.box{
-    display: grid;
-    place-items: center;
-}
-.carousel-inner.feedback_slider {
-    position: static;
-    
-    /* display: block; */
-    /* top: 270px; */
-    /* bottom: 73vh; */
-    /* width: 100%; */
-    /* margin-left: 40%;
-    margin-right: 40% auto; */
-    /* background: #fc1b21; */
-}
-
-.carousel-indicators.feedback_indicators {
+.carousel.slide.all_feddback_slider {
     position: relative;
-    bottom: 280px;
+    left: 48%;
+    bottom:53%;
+    transform: translate(-48%, -53%);
+    width: 50%;
+
+}
+.carousel-indicators.feedback_indicators {
+   bottom: -50px;
 }
 
 /* Фото отзыва */
 .carousel-inner.feedback_slider img {
-    width: 350px;
-    /* display: block; */
-    /* max-height: 150px; */
-    /* margin: 0 auto; */
+    width: 300px;
+    display: block;
+    margin: 0 auto;
     border-radius: 25px;
     border: solid;
     border-style: none;
     opacity: 0.8;
 }
 
-/* Фон Отзывы */
-.feedback_img_background {
-    width: 95%;
-    /* height: 90%; */
-    display: block;
-    margin: 0 auto;
-    border-radius: 25px;
-    border: solid;
-    border-style: none;
-}
-
-/* кнопка отзывы */
 .feedback a{
     position: relative;
+    bottom: 200px;
     display: block;
     margin: auto;
-    bottom: 20px;
-    width: 200px !important;
-}
+    width: 20% !important;
+ }
 
 /* Адреса Адреса Адреса Адреса Адреса Адреса Адреса  */
+
+.address_title {
+    margin-top: -90px;
+    padding-top: 90px;
+    text-align: center; 
+    padding-bottom: 30px;
+}
 
 .adress_title {
     font-size: 1.1rem;
@@ -290,15 +296,6 @@ body, html {
     margin: 10px auto;
 }
 
-
-
-.address_title {
-    margin-top: -80px;
-    padding-top: 80px;
-    text-align: center; 
-    padding-bottom: 30px;
-}
-
 .geo_icon {
     margin-right: 7px;
     margin-left: 0 px;
@@ -314,7 +311,6 @@ body, html {
 
 
 .btn-danger{
-
     border-radius: 17px;
     background: -moz-linear-gradient(-45deg, #e81216 0%, #f45355 50%, #f6290c 51%, #ed0e11 71%, #fc1b21 100%);
     /* FF3.6-15 */
@@ -378,6 +374,3 @@ body, html {
     .elements-page-btn .btn {
     margin: 6px 3px;
    }
-
-
-   
