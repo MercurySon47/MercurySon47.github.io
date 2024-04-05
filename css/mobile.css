@@ -314,6 +314,26 @@ body, html {
     margin-bottom: 20px;
 }
 
+.YMaps.YMaps-cursor-grab {
+    border-radius:10px;
+}
+
+.map{
+    display: block;
+    width: 320px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 25px 25px 25px 25px;
+    overflow: hidden;
+}
+
+.map_background{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-image: url('../img/DL/1_back.jpg');
+    width: 100%;
+}
+
 .btn-danger{
     border-radius: 17px;
     background: -moz-linear-gradient(-45deg, #e81216 0%, #f45355 50%, #f6290c 51%, #ed0e11 71%, #fc1b21 100%);
