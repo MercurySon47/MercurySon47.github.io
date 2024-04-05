@@ -36,6 +36,10 @@ body, html {
     padding-left: 1%;
 }
 
+.nav-item a{
+    font-weight: 600;
+}
+
 .whatsapp_icon {
     font-size: 1.1em !important;
     text-align: center;
@@ -62,9 +66,14 @@ body, html {
 
 /* Слайдер */
 
+
+.carousel-indicators.slider_indicators {
+    margin-bottom: 50px;
+
+}
 .carousel-inner.top_slider {
     width: 100% ;
-    height: 800px;
+    height: 755px;
     /* background-color: yellow; */
     background-image: url('../img/DL/1_back.jpg');
     background-size: auto;
@@ -82,15 +91,26 @@ body, html {
 .carousel-caption {
     text-shadow: 1px 1px 3px #000;
     position: static;
-    transform: translate(0%, 450px);
-    width: 400px;
-    height: 250px;
+    transform: translate(0%, 250px);
+    width: 1000px;
+    height: 300px;
     display: block;
     margin: 0 auto;
-    background-color: rgba(255, 220, 50, 0.5);   
+    background-color: rgba(255, 220, 50, 0.15);   
+}
+
+.carousel-caption.rounded-5.border {
+    border-style: none !important;
+}
+
+.carousel-caption.rounded-5.border h1{
+    font-size: 3rem !important;
+    color: #ffffff;
+    font-weight: 400;
 }
 
 .carousel-caption button{
+    width: 200px;
     margin-top: 20px;
 }
 
@@ -229,6 +249,7 @@ body, html {
     width: 50%;
 
 }
+
 .carousel-indicators.feedback_indicators {
    bottom: -50px;
 }
@@ -295,15 +316,22 @@ body, html {
     text-align: center;
 }
 .map{
+    display: none;
+}
+
+.map_1{
     display: block;
-    width: 320px;
+    width: 960px;
     margin: 0 auto;
     margin-bottom: 20px;
     border-radius: 25px 25px 25px 25px;
     overflow: hidden;
 }
-
-.map_background{
+.map_background {
+    display: none;
+    
+}
+.map_background_1{
     padding-top: 30px;
     padding-bottom: 10px;
     background-image: url('../img/DL/1_back.jpg');

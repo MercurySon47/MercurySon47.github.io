@@ -8,7 +8,7 @@ body, html {
 }
 
 .navbar-brand img {
-    width: 70px;
+    width: 75px;
     height: 30px;
     margin-right: 0;
     padding-right:0 ;
@@ -28,7 +28,10 @@ body, html {
 .nav-link {
     font-size: 1em !important;
     text-align: center;
-    margin: 1%;
+}
+
+.nav-item a{
+    font-weight: 600;
 }
 
 .whatsapp_icon {
@@ -53,8 +56,9 @@ body, html {
 
 .menu-button {
     display: block;
-    margin-top: 5px !important;
     margin: 0 auto;
+    margin-top: 10px !important;
+    margin-bottom: 10px;
 }
 
 .carousel-inner.top_slider {
@@ -88,7 +92,11 @@ body, html {
     
 }
 
-.carousel-caption h5 {
+.carousel-caption.rounded-5.border {
+    border-style: none !important;
+}
+
+.carousel-caption h1 {
     margin-bottom: 20px;
 }
 
@@ -139,8 +147,11 @@ body, html {
 }
 
 .service_items {
-    margin-left: 30px;
-    margin-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    background-image: url('../img/DL/1_back.jpg');
 }
 
 .card_service {
@@ -172,10 +183,8 @@ body, html {
 }
 
 .company {
-    background: linear-gradient(rgba(255, 255, 0, 0.1), rgba(255, 4, 4, 0.1));
-    padding-left: 10px;
-    padding-right: 10px;
-    /* padding-bottom: 10px; */
+    background-image: url('../img/DL/1_back.jpg');
+    padding: 10px 30px 20px 30px;
     font-size: 1.1rem;
     border-radius: 20px;
     text-align: center;
@@ -332,6 +341,14 @@ body, html {
     padding-bottom: 10px;
     background-image: url('../img/DL/1_back.jpg');
     width: 100%;
+}
+
+.map_1 {
+    display: none;
+}
+
+.map_background_1 {
+    display: none;
 }
 
 .btn-danger{
